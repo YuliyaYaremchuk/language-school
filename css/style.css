@@ -35,6 +35,10 @@ body {
   color: var(--text-color);
 }
 
+button{
+  cursor: pointer;
+}
+
 .container {
   width: 1378px;
   padding-left: 20px;
