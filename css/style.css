@@ -365,3 +365,66 @@ color: var(--subtitle-color);
 
   color: var(--secondary-text-color);
 }
+
+
+/* ------- Contact Us ------- */
+
+.contact-section{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.contact-container{
+  display: flex;
+}
+
+.contact-description{
+  margin-left: 144px;
+}
+
+.contact-text{
+  font-size: 20px;
+  line-height: 1.5;
+  
+  margin-bottom: 30px;
+  
+  color: var(--text-color);
+
+  width: 654px;
+}
+
+
+/* ================== FOOTER ================== */
+
+.footer-container {
+  display: flex;
+  align-items: center;
+border-top: 1px solid #C4C4C4;
+padding-top: 22px;
+padding-bottom: 77px;
+
+}
+
+
+
+.footer-menu{
+display: flex;
+
+gap: 80px;
+
+margin-left: auto;
+}
+
+.footer-menu-link{
+  text-decoration: none;
+
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+
