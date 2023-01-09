@@ -393,6 +393,66 @@ color: var(--subtitle-color);
   width: 654px;
 }
 
+.input-block{
+  position: relative;
+
+  display: flex;
+  align-items: center;
+}
+
+.contact-email{
+  width: 425px;
+  height: 70px;
+  outline: none;
+  border: 1px solid var(--text-color);
+  border-radius: 10px;
+
+  padding: 20px 30px;
+
+  margin-right: 30px;
+}
+
+.contact-email-desc{
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  transform-origin: left center;
+
+  pointer-events: none;
+  transition: 250ms linear;
+
+  background-color: #fff;
+  padding: 10px;
+
+  opacity: .5;
+}
+
+.contact-email:focus + .contact-email-desc , 
+.contact-email:not(:placeholder-shown) + .contact-email-desc {
+  top: 0;
+  transform: translate(10px, -50%) scale(.8);
+
+  opacity: 1;
+  font-size: 16px;
+}
+
+.submit-btn{
+  color: var(--btn-text);
+
+  font-size: 20px;
+  line-height: 1.301;
+  letter-spacing: 0.03em;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-width: 312px;
+
+  margin-left: auto;
+
+  background-color: var(--button-color);
+  border-radius: 10px;
+}
 
 /* ================== FOOTER ================== */
 
