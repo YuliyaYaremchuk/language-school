@@ -19,40 +19,73 @@
     <title>Britlex</title>
   </head>
   <body>
-
     <!-- ================== HEADER ================== -->
-    <heder>
+    <header>
       <div class="header-container container">
-        <a href="" class="logo-header logotype"
+        <a href="./index.html" class="logo-header logotype"
           ><span class="logo-accent">Brit</span>lex</a
         >
         <nav>
           <ul class="menu-list">
             <li class="menu-list-item">
-              <a href="" class="menu-list-link">Home</a>
+              <a href="./index.html" class="menu-list-link">Home</a>
             </li>
             <li class="menu-list-item">
-              <a href="" class="menu-list-link">Skills</a>
+              <a href="#skills" class="menu-list-link">Skills</a>
             </li>
             <li class="menu-list-item">
-              <a href="" class="menu-list-link">About Us</a>
+              <a href="#about-us" class="menu-list-link">About Us</a>
             </li>
             <li class="menu-list-item">
-              <a href="" class="menu-list-link">Pricing</a>
+              <a href="#prising" class="menu-list-link">Pricing</a>
             </li>
             <li class="menu-list-item">
-              <a href="" class="menu-list-link">Contacts</a>
+              <a href="#contacts" class="menu-list-link">Contacts</a>
             </li>
           </ul>
         </nav>
         <button type="button" class="head-btn">Let’s Talk</button>
+        <button type="button" class="burger-menu" data-menu-open>
+          <img src="./img/burger-menu.svg" alt="open menu button" />
+        </button>
       </div>
-    </heder>
+
+      <!-- MOBILE MENU -->
+
+      <div class="mobile-menu" data-menu>
+        <div class="container">
+          <div class="mobile-menu-top">
+            <a href="./index.html" class="logo-header logotype"><span class="logo-accent">Brit</span>lex</a>
+            <button type="button" class="close-btn" data-menu-close>
+              <img src="./img/close-menu.svg" alt="cross" />
+            </button>
+          </div>
+          <ul class="mobile-menu-list">
+            <li class="mobile-menu-list-item">
+              <a href="./index.html" class="mobile-menu-list-link">Home</a>
+            </li>
+            <li class="mobile-menu-list-item">
+              <a href="#skills" class="mobile-menu-list-link">Skills</a>
+            </li>
+            <li class="mobile-menu-list-item">
+              <a href="#about-us" class="mobile-menu-list-link">About Us</a>
+            </li>
+            <li class="mobile-menu-list-item">
+              <a href="#prising" class="mobile-menu-list-link">Pricing</a>
+            </li>
+            <li class="mobile-menu-list-item">
+              <a href="#contacts" class="mobile-menu-list-link">Contacts</a>
+            </li>
+          </ul>
+          <button type="button" class="mobile-head-btn">Let’s Talk</button>
+        </div>
+      </div>
+    </header>
 
     <!-- ================== MAIN ================== -->
     <main>
-        <!-- -------Hero------- -->
-      <section class="hero">
+      <!-- -------Hero------- -->
+      <!-- <section class="hero">
         <div class="hero-container container">
           <div class="hero-left">
             <div class="lamp-section">
@@ -68,10 +101,10 @@
           </div>
           <img src="./img/learning-languages.svg" alt="girl learning language" width="654"/>
         </div>
-      </section>
+      </section> -->
 
       <!-- -------Skills------- -->
-      <section class="skills-section">
+      <!-- <section class="skills-section" id="skills">
         <div class="container">
           <h2 class="title-section">Skills</h2>
             <ul class="skills-list">
@@ -117,9 +150,9 @@
               </li>
             </ul>
         </div>
-      </section>
+      </section> -->
       <!-- -------About Us------- -->
-      <section class="about-us-section">
+      <!-- <section class="about-us-section" id="about-us">
         <div class="about-us-container container">
           <div class="about-us-description">
             <h2 class="title-section left-title">About Us</h2>
@@ -133,10 +166,10 @@
           </div>
           <img src="./img/business-competition.svg" alt="" width="540">
         </div>
-      </section>
+      </section> -->
 
       <!-- -------Pricing------- -->
-      <section class="pricing-section">
+      <!-- <section class="pricing-section" id="prising">
         <div class="container">
           <h2 class="title-section">Pricing</h2>
             <ul class="pricing-list">
@@ -173,11 +206,11 @@
               </li>
             </ul>
         </div>
-      </section>
+      </section> -->
 
-<!-- -------Contact Us------- -->
+      <!-- -------Contact Us------- -->
 
-      <section class="contact-section">
+      <!-- <section class="contact-section" id="contacts">
         <div class="contact-container container">
           <img src="./img/contact.svg" alt="" width="425">
           <div class="contact-description">
@@ -190,11 +223,11 @@
             </div>
           </div>
         </div>
-      </section>
+      </section>-->
     </main>
 
     <!-- ================== FOOTER ================== -->
-    <footer>
+    <!-- <footer>
       <div class="footer-container container">
         <a href="" class="logo-footer logotype"
         ><span class="logo-accent">Brit</span>lex</a
@@ -205,6 +238,7 @@
         <li><a href="" class="footer-menu-link">Cookie Policy</a></li>
       </ul>
       </div>
-    </footer>
+    </footer> -->
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
